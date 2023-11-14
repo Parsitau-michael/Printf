@@ -8,4 +8,4 @@ void print_string(const char *str);
 int _printf(const char *format, ...);
 void specifier_handler(char specifier, va_list args);
 
-#endif /** MAIN_H **/
+#endif /** MAIN_H **/

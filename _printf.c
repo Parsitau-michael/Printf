@@ -28,13 +28,10 @@ int _printf(const char *format, ...)
 		else
 		{
 			_putchar(*format);
-		}
-
-		if (*format != '\0')
-		{
-			format++;
 			count++;
 		}
+
+		format++;
 	}
 
 	va_end(args);

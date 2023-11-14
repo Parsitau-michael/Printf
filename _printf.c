@@ -23,7 +23,7 @@ int _printf(const char *format, ...)
 		if (*format == '%')
 		{
 			format++;
-			specifier_handler(*format, args);
+			specifier_handler(*format, args, &count);
 		}
 		else
 		{
